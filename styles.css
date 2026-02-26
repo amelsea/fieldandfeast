@@ -1,0 +1,76 @@
+/* CSS BY Alaina Elsea */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+
+:root {
+  --midnight-blue: #1F2A44;
+  --olive-green: #76885B;
+  --champagne-gold: #E5C185;
+  --linen: #F8F4EC;
+  --dark-charcoal: #2B2B2B;
+  --soft-white: #FAF9F6;
+}
+
+
+body {
+  font-family: 'Playfair Display', serif;
+  background: var(--linen);
+  color: var(--dark-charcoal);
+  line-height: 1.7;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 3rem 0;
+}
+
+
+h1 {
+  margin: 0; 
+}
+
+h2,
+h3 {
+  color: var(--midnight-blue);
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+
+.hero h1 {
+  font-weight: 700;
+  color: var(--soft-white);
+  font-size: 3rem;
+}
+
+.tagline {
+  font-style: italic;
+  margin-top: 0;
+}
