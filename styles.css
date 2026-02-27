@@ -16,6 +16,10 @@ img {
   max-width: 100%;
   display: block;
 }
+.logo {
+  display: block;
+  margin: 0 auto;
+}
 
 ul {
   list-style: none;
