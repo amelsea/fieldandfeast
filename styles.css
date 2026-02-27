@@ -21,8 +21,10 @@ img {
   margin: 0 auto;
 }
 .logo {
-  width: 180px; 
-  height: auto;  
+  display: block !important;
+  width: 180px !important;  
+  height: auto !important;
+  margin: 0 auto !important;  
 }
 
 ul {
